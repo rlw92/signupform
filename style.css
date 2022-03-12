@@ -1,22 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body{margin:0;}
-.body{display:flex;}
+.body{display:flex;
+    font-family:'Pacifico';}
 /*background image by Brooke Lark found on unsplash.com*/
 
 .sidebar{background:url(background.jpeg);
-         height:100vh;width:40vw;
-         display:flex;
+             height:100vh;
+             width:28vw;
+               display:flex;
          justify-content: center;
+         
         }
 .logocontainer{background-color: rgba(1, 5, 1, 0.5);
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     position:relative;
+    width:100%;
 top:25vh;
 height:20vh;}
-#logoimg{width:20vw;height:100%;}
+#logoimg{width:20vw;height:100%;opacity:0.7}
+
 #header{color:rgb(255, 255, 255);
-    font-size:1.5rem;
+    font-size:0.7rem;
+    letter-spacing: 1em;;
     font-weight:bolder;
     
         }
@@ -26,3 +33,31 @@ height:20vh;}
     font-size:1rem;
     font-weight:bold;}
 .note mark{background:rgb(247, 243, 0);font-weight:bolder;}
+
+.maincontent{background-color:rgb(231, 231, 228)}
+.info{padding:10px;}
+.signupform{background-color: rgb(170, 233, 233);
+           border:dotted red 2px; 
+        padding:1px;
+    box-shadow:10px 10px 13px rgb(230, 112, 112)}
+fieldset{border:none;}
+fieldset{display:flex;
+    gap:60px;
+    margin:0;padding:0;border:0;
+    margin-left:20px;
+}
+.wrapper label{display:block;}
+button[type=submit]{display:block;
+    margin:10px;
+    margin-top:20px;
+    font-size:1rem;
+    background-color:rgb(31, 104, 24);
+    width:15vw;height:10vh;
+    color:yellow;}
+    button[type=submit]:hover{background-color:rgb(1, 123, 238);}
+    .login{margin:10px;}
+    .login span{color:rgb(31, 104, 24);}
+    .login span:hover{color:rgb(24, 252, 4);
+    cursor:pointer;}
+
+
